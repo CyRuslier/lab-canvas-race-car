@@ -8,6 +8,11 @@ body {
 body {display:flex; min-height:100vh;}
 body >div {flex:1;}
 
+canvas {
+  border: 1px solid black;
+}
+
+
 .game-intro {
   display:flex; flex-direction:column;
   justify-content:center; align-items:center;
